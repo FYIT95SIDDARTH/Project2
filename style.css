@@ -668,7 +668,7 @@ nav {
 .continent,
 .country-name {
     cursor: pointer;
-    padding: 15px 30px;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -776,19 +776,27 @@ nav {
     }
 
     .email {
-        width: 400px;
+        width: 300px;
     }
 
     .copyright {
-        line-height: 30px;
-        font-size: 19px;
+        line-height: 20px;
+        font-size: 15px;
         font-weight: 500;
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
     }
 
     .copylogo {
         padding-left: 2px;
+    }
+
+    .foot {
+        height: 100%;
+    }
+
+    .continent {
+        width: 310px
     }
 }
 
@@ -807,6 +815,7 @@ nav {
         padding-top: 15px;
         display: flex;
         justify-content: left;
+        /* padding-left:10px; */
     }
 
     .social-copy {
